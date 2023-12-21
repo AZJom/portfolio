@@ -1,6 +1,6 @@
 // GitHub.js
 import React, { useState, useEffect } from 'react';
-import './styles/Repo.css'; // Import Repo.css
+import './styles/Repo.css'; 
 
 const GitHub = () => {
   const [repos, setRepos] = useState([]);

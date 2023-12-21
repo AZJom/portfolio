@@ -1,8 +1,8 @@
-// Home.js
+
 
 import React from 'react';
-import './styles/Home.css'; // Import Home.css
-import headshotImage from './images/profile.png'; // Import your headshot image
+import './styles/Home.css'; 
+import headshotImage from './images/profile.png'; 
 
 const Home = () => {
   return (
