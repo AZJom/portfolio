@@ -1,0 +1,67 @@
+/* Projects.css */
+
+.projects {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.project {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.project p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Media queries for responsiveness */
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  .project {
+    padding: 15px;
+  }
+
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project {
+    padding: 18px;
+  }
+
+  .project h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .project p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+/* Larger screens (desktops) */
+@media (min-width: 1025px) {
+  /* Styles remain as per the original, adjust if necessary */
+}
