@@ -9,16 +9,17 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://azjom.github.io/portfolio", 
+  "homepage": "https://azjom.github.io/portfolio",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^3.0.1"
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^3.2.3"
   },
   "babel": {
